@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { Content, Container, DeckSwiper } from "native-base";
@@ -42,3 +43,38 @@ const style = StyleSheet.create({
       textShadowRadius: 5
   }
 });
+=======
+import React, { Component } from 'react';
+import { 
+    View,
+    Text,
+    StyleSheet
+    } from 'react-native';
+import { Icon } from 'native-base';
+ 
+class HomeTab extends Component{
+
+    static navigationOptions = {
+        tabBarIcon: ({ tintColor }) => (
+            <Icon name='ios-home' style={{color:tintColor}}/>
+        )
+    }
+
+    render(){
+        return (
+            <View style={style.container}>
+                <Text>HomeTab</Text>
+            </View>
+        );
+    }
+}
+export default HomeTab;
+ 
+const style = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+    }
+})
+>>>>>>> 781a9a99638605c2eb6e0e9d68e4925024254379

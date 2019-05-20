@@ -1,2 +1,2 @@
 # Artreet
-Street performance platform
+Street performance platform with React-natvie

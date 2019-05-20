@@ -2,11 +2,12 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MainScreen from './Components/MainScreen';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
+import Login from './Components/Login/Login';
 
 export default class App extends React.Component {
   render() {
     return (
-      <AppStackNavigator/>
+      <Login/>
     );
   }
 }

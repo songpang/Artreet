@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
+import { Container, Content } from 'native-base';
+import ListComponent from "../WeeklyListComponent";
 
 export default class WeeklyRankTab extends Component {
   render() {
     return (
-      <View style={style.container}>
-        <Text>WeeklyRankTab</Text>
-      </View>
+      <Container>
+        <Content>
+          <ListComponent name="Perform B" likes="126" />
+          <ListComponent name="Perform A" likes="236" />
+        </Content>
+      </Container>
     );
   }
 }

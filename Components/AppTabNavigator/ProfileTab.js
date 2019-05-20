@@ -1,18 +1,15 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
-import Icon from 'react-native-vector-icons/SimpleLineIcons';
+import Icon from "react-native-vector-icons/SimpleLineIcons";
+import Profile from "../ProfileComponent";
 
 export default class ProfileTab extends Component {
-    static navigationOptions = {
-        tabBarIcon: <Icon name="user" size='20'/>
-      };
+  static navigationOptions = {
+    tabBarIcon: <Icon name="user" size="20" />
+  };
 
   render() {
-    return (
-      <View style={style.container}>
-        <Text>ProfileTab</Text>
-      </View>
-    );
+    return <Profile />;
   }
 }
 

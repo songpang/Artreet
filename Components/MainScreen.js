@@ -10,8 +10,7 @@ import ProfileTab from "./AppTabNavigator/ProfileTab";
 
 export default class MainScreen extends Component {
   static navigationOptions = {
-    headerLeft: <Icon name="menu" size='20' style={{ paddingLeft: 10 }} />,
-    title: "Artreet"
+    headerTitle: "Artreet"
   };
 
   render() {
